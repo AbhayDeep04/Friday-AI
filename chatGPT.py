@@ -57,7 +57,7 @@ def sendToGPT(messages, model="gpt-3.5-turbo"):
     return message
 
 #initial role of Friday added to the messages array
-messages = [{"role": "user", "content": "Act as Armin in the anime series Attack on Titan."}]
+messages = [{"role": "user", "content": "Act as Friday, the AI assistant that Tony Stark created in the Iron Man and Avengers Movies."}]
 
 while (1):
     #record
