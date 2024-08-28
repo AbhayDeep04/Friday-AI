@@ -46,7 +46,7 @@ def recordText():
 def sendToGPT(messages, model="gpt-3.5-turbo"):
     response = client.chat.completions.create(model=model,
                                               messages=messages,
-                                              max_tokens=200,
+                                              max_tokens=250,
                                               n=1,
                                               stop=None,
                                               temperature=0.5)
